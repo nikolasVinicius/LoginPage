@@ -1,0 +1,49 @@
+*{
+   
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+    color: aquamarine;
+    background: linear-gradient(rgb(10, 1, 1),rgb(5, 30, 41));
+    
+    background-size: 100rem;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    border-radius: 10px;
+    margin: 200px auto;
+    width: 400px;
+    height: 350px;
+    background: linear-gradient(rgb(1, 25, 77),rgb(48, 1, 70),rgb(0, 10, 17));
+
+}
+.Login{
+    font-size:60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    color:aliceblue;
+}
+form{
+    width:300px ;
+    margin: 200px auto;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    border-radius: 20px;
+   display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(51, 2, 83);
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height:30px;
+}

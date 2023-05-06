@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    color: rgb(136, 1, 253);
+    background: linear-gradient(rgb(10, 1, 1),rgb(5, 30, 41));
+    background-repeat:  no-repeat;
+    background-size: 100rem;
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    font-style: none;
+}
+ul{
+    font-family: fantasy;
+    margin-left: 100 auto;
+    list-style: none;
+    color: azure;
+    display: flex;
+  
+}
+
+li{
+    margin-left: 70%;
+    padding: 20px;
+justify-content: space-around;
+}
+
+li:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
